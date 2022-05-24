@@ -13,8 +13,8 @@ from pyrogram import Client
 
 
 async def main():
-    api_id = int(input("API ID: "))
-    api_hash = input("API HASH: ")
+    api_id = int(input("14266125"))
+    api_hash = input("3f5db9ec965a20493539f979b1381791")
     async with Client(":memory:", api_id=api_id, api_hash=api_hash) as app:
         await app.send_message(
             "me",
